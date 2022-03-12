@@ -1,0 +1,101 @@
+body {
+    background-color: #2f2f2f;
+}
+
+
+
+.h2 {
+  font-size: 532%;
+  color: white;
+  position: relative;
+  left: 179px;
+  top: 46px;
+  font-weight: bold;
+}
+
+.box {
+    width: 400px;
+    height: 350px;
+    margin: 80px;
+    position: relative;
+    /* background-color: #fff; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+img[alt="black"] {
+    position: absolute;
+    left: 80px;
+}
+
+
+img[alt="color"] {
+    position: absolute;
+    left: 80px;
+    animation: rotate linear infinite .5s;
+}
+
+
+@keyframes rotate {
+      form {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+}
+
+
+img[alt="color"]:active {
+    animation-play-state: paused;
+}
+
+
+
+
+
+  
+.button1 {
+  display: inline-block;
+  border-radius: 39px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 102px;
+  padding: 47px;
+  width: 605px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 6px;
+  position: absolute;
+  top:  1771px;;
+  left:   1756px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 67px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 70px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}

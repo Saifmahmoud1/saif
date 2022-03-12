@@ -1,0 +1,143 @@
+<html>
+<head>
+   <title>أتصل بنا</title>
+</head>
+<body>
+
+      <style>
+        body {
+          background-color: rgb(0, 0, 0);
+        }
+        legend {
+          font-size: 25px;
+          background-color: rgb(255, 255, 255);
+          text-align: center;
+          width: 250px;
+          position: relative;
+          left: 40%;
+          /* top: -10px; */
+          box-shadow: 1px 0px 15px white;
+        }
+        
+
+        fieldset {
+          font-size: 24px;
+          background-color: white;
+          box-shadow: 1px -2px 15px white;
+        }
+
+      </style>
+            <form action="" method="POST"> 
+             <legend>أتصل بنا</legend>
+                <fieldset>
+                 <div>
+                   <label>الأسم</label>
+                    <!-- autofocus لوعايز أول ما أفتح الموقع يفتح عند حقل الأسم أكتب  -->
+                    <input type="text" required placeholder="Username..." name="ملف الأسم" autofocus>
+                 </div>
+                      <br>
+                <div>
+                <label>كلمة مرور</label>
+                 <input type="password"
+                   required 
+                   placeholder="Password..." 
+                   minlength="10" 
+                   maxlength="100">
+               </div>
+                     <br>
+               <div>
+                <label> الحساب</label>
+                <input type="email" required placeholder="email...">
+               </div>
+                   <br>
+               <label>color</label>
+               <input type="color" name="color">
+                    <br>
+               <div>
+                <label>range</label>
+                   <input type="range" name="range" min="0" max="100" value="0">
+                  </div>
+                  <br>
+
+                  <label for="العمر"> كم عمرك </label>
+                  <select name="العمر" id="ع1">
+                   <option value="u">14</option>
+                   <option value="u">15</option>
+                   <option value="u">17</option>
+                   <option value="u">18</option>
+                   <option value="u">19</option>
+                   <option value="u">20</option>
+                   <option value="u">21</option>
+                   <option value="u">22</option>
+                   <option value="u">23</option>
+                   <option value="u">24</option>
+                   <option value="u">25</option>
+                   <option value="u">26</option>
+                   <option value="u">27</option>
+                  </select>
+
+                  <br />
+                  <br />
+                  <textarea name="" id="" cols="30" rows="10" placeholder=" رسالتك..."></textarea>  
+                  <br>
+                  <br>
+                  <div>
+                    <label>التاريخ</label>
+                     <input type="date" />
+                 </div>
+                 <br />
+                 <br />
+                 <input type="submit" value="save">   <!-- زرارالحفظ -->
+                 <input type="reset" value="reset">   <!--زرارا لمسح -->
+        </fieldset>
+    </form>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <legend>أتصل بنا</legend>
+            <label for="name">الأسم</label> <br>
+            <input type="text" placeholder="أكتب أسمك..."> <br>
+            <label for="last name">أسم العائلة</label> <br>
+            <input type="text" placeholder="أكتب اسم العائلة..."> <br>
+            <label for="email">البريد الإلكتروني </label> <br>
+            <input type="email" placeholder=" أكتب عنوان البريد الإلكتروني"> <br>
+            <label for="message">الرسالة</label> <br>
+            <textarea placeholder="رسالتك..."></textarea> <br>
+            <input type="submit" value="إرسال">
